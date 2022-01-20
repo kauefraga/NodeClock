@@ -23,12 +23,8 @@
 
 <h4 align="center">A Simple Digital Node Clock</h4>
 
-<div align="center">
-  <img src="" alt="App gif" />
-  //x: 500px, y: 300px
-</div>
-
 ## ⬇️ How to download
+
 ```bash
 git clone https://github.com/kauefraga/NodeClock.git
 cd NodeClock
@@ -36,16 +32,10 @@ yarn || npm install
 yarn start || npm start
 ```
 
-## 🧪 How to run tests
-```bash
-yarn test || npm test
-```
-
 ## 💻 Technologies
 
 - [Chalk](https://www.npmjs.com/package/chalk)
 - [Figlet](https://www.npmjs.com/package/figlet)
-- [Jest](https://jestjs.io) + [Ts-Jest](https://www.npmjs.com/package/ts-jest)
 - [TypeScript](https://www.typescriptlang.org) + [Ts-Node-Dev](https://www.npmjs.com/package/ts-node-dev)
 
 ## 📝 License
@@ -53,7 +43,8 @@ yarn test || npm test
 See the [LICENSE](https://github.com/kauefraga/NodeClock/blob/main/LICENSE) for more information.
 
 ---
+
 <div align="center" display="flex">
-  <img alt="Built with love" src="http://ForTheBadge.com/images/badges/built-with-love.svg">
-  <img alt="Made with javascript" src="http://ForTheBadge.com/images/badges/made-with-javascript.svg">
+  <img alt="Built with love" src="https://forthebadge.com/images/badges/built-with-love.svg">
+  <img alt="Powered by coffee" src="https://forthebadge.com/images/badges/powered-by-coffee.svg">
 </div>
