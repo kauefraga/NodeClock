@@ -4,15 +4,7 @@ import figlet from 'figlet'
 
 Clock()
 
-// Somente para testes
-// Only for testing purpose
-let cachedDate = {
-  hours: new Date().getHours(),
-  minutes: new Date().getMinutes(),
-  seconds: new Date().getSeconds()
-}
-
-async function Clock() {
+function Clock() {
   clear()
 
   const time = {
@@ -23,11 +15,9 @@ async function Clock() {
 
   console.log(
     chalk.magenta(
-      figlet.textSync(`${time.hours} : ${time.minutes} : ${time.seconds}`, 'Big')
+      figlet.textSync(`${time.hours} : ${time.minutes} : ${time.seconds}`)
     )
   )
 
   setTimeout(Clock, 1050)
 }
-
-export default cachedDate
